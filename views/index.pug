@@ -1,0 +1,70 @@
+doctype html
+html
+  head
+   
+    
+    style
+      include ../static/style.css
+  body
+    //- creating the navigation bar 
+    nav#navbar.navibar
+        ul#navul 
+            div.logo 
+              img(src="/static/logo.jpg")
+              |CDA
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About]
+            li #[a(href = "/") Services]
+            li #[a(href = "/") Class Info]
+            li #[a(href = "/contact") Contact Us]
+
+
+
+    //- creating the picture section 
+    section#introSection 
+        div Welcome to Chachoo's Dance Academy 
+        div Lets Dance It Out 
+
+
+    //- creating our mission section
+    section#OurMission 
+        h2 Our Mission 
+        div.card 
+          h3 Personal Training
+          div.card-box 
+            div.card-img 
+              img(src="/static/bg1.jpg")
+            div.card-content 
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloremque itaque  
+        div.card 
+          h3 6 Forms Of Dance
+          div.card-box 
+            div.card-img 
+              img(src="/static/bg2.jpg")
+            div.card-content 
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloremque itaque  
+        div.card 
+          h3 Expert Teachers
+          div.card-box 
+            div.card-img 
+              img(src="/static/bg3.jpg")
+            div.card-content 
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloremque itaque  
+
+
+    //- creating the sponsors section 
+    section#sponsorSection 
+        h2  OUR SPONSORS
+        div.sponsor-img 
+            img(src="/static/logo2.png", alt="SWIGGY" class="spimg")
+            img(src="/static/logo3.png", alt="MICROSOFT" class="spimg")
+            img(src="/static/logo4.png", alt="WIPRO" class="spimg")
+            img(src="/static/logo5.png", alt="TCS" class="spimg")
+
+    //- creatin the footer 
+    footer#footer 
+        |	&#169; Copyright 2021 ChachooDanceAcademy.com   | All rights reserved
+
+            
+    script
+      include ../static/index.js

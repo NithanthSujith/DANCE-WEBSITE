@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title CDA
+    block scripts
+    block style 
+      style 
+        
+      
+    body
+      //-  creating of navigation bar    
+      nav#navbar.navibar
+         ul#navul 
+            div.logo 
+              img(src="/static/logo.jpg")
+              |CDA
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About]
+            li #[a(href = "/") Services]
+            li #[a(href = "/") Class Info]
+            li #[a(href = "/contact") Contact Us]
+
+    block content
+    //- creatin the footer 
+    footer#footer   
+        |	&#169; Copyright 2021 ChachooDanceAcademy.com   | All rights reserved
+      
+        

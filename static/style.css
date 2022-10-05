@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box ;
+}
+
+/* css for navigation bar  */
+#navbar{
+    background-color: #279d80;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+/* dealing with the logo  */
+.logo{
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin: 0px 10px;
+    font-size: 20px;
+    
+    
+}
+.logo img{
+    height: 50px;
+    filter: invert(1);
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+#navbar ul li{
+    padding: 9px 25px;
+    margin: 8px;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white ;
+    /* font-weight: bold; */
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+}
+#navbar ul li a:hover{
+   color: rgb(192, 192, 192);
+}
+
+/* dealing with the introsection  */
+#introSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    font-size: 55px;
+    font-family: 'Staatliches';
+    color: #00ebfb;
+    background: center / cover no-repeat url("/static/bg.jpg");
+}
+
+/* dealing with our mission section  */
+#OurMission {
+    height: 350px;
+    background-color: #3facb4;
+     
+}
+#OurMission  h2{
+    text-align: center;
+    color: black;
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    padding-top: 15px;
+    
+}
+.card{
+    display: inline-block;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: #227278;
+    margin: 10px 60px;
+    width: 25%;
+    height: 200px;
+    text-align: center;
+    box-shadow: -7px -2px 26px #227278;
+
+}
+.card h3 {
+    text-align: center;
+    font-family: 'Luckiest Guy';
+    margin: 10px;
+
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 15px;
+
+}
+.card-img{
+    height: 130px;
+    padding: 0px 15px;
+}
+.card-img img{
+    height: inherit;
+    padding: 0px 10px;
+}
+.card-content{
+    font-size: 18px;
+}
+
+/* dealing with the sponsors section  */
+#sponsorSection{
+    height: 340px;
+    background-color: rgb(58, 56, 56);
+    padding-top: 10px;
+    align-items: center;
+    
+}
+#sponsorSection h2{
+    text-align: center;
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    padding-top: 10px;
+    
+}
+.sponsor-img {
+    height: 250px;
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.spimg{
+    margin: 20px 30px;
+}
+
+
+/* dealing with the footer  */
+#footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
